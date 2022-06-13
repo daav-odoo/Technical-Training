@@ -1,8 +1,8 @@
 {
 
-'name': 'Odoo Academy'
+'name': 'Odoo Academy',
 
-'summary': """Academy app to manage Training"""
+'summary': """Academy app to manage Training""",
 
 'Description': """
 
@@ -16,13 +16,13 @@
 
 """,
 
-'author': 'daav-odoo'
+'author': 'daav-odoo',
 
-'website': 'https://www.odoo.com'
+'website': 'https://www.odoo.com',
 
 'category': 'Training',
 
-'version': '0.1'
+'version': '0.1',
 
 'depends': ['base'],
 
