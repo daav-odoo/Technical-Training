@@ -6,7 +6,7 @@
 
 'summary': """Academy app to manage Training""",
 
-'Description': """
+'description': """
 
     Academy Module to manage Training:
 
