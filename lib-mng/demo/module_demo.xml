@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        
+        <record model="library.management" id="book_1">
+            <field name="name">Book 1</field>
+            <field name="description"></field>
+            <field name="author">Paulo</field>
+        </record>
+        
+        <record model="library.management" id="book_2">
+            <field name="name">Book 2</field>
+            <field name="description"></field>
+            <field name="author">Jorge</field>
+        </record>
+        
+        <record model="library.management" id="book_3">
+            <field name="name">Book 3</field>
+            <field name="description"></field>
+            <field name="author">Maria</field>
+        </record>
+        
+        <record model="library.management" id="book_4">
+            <field name="name">Book 4</field>
+            <field name="description"></field>
+            <field name="author">Paulo</field>
+        </record>
+        
+        <record model="library.management" id="book_5">
+            <field name="name">Book 5</field>
+            <field name="description"></field>
+            <field name="author">Rogelio</field>
+        </record>
+        
+    </data>
+</odoo>
