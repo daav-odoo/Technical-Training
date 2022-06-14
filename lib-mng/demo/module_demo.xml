@@ -4,32 +4,52 @@
         
         <record model="library.management" id="book_1">
             <field name="name">Book 1</field>
-            <field name="description"></field>
             <field name="author">Paulo</field>
+            <field name="editor">Editor1</field>
+            <field name="publisher">Publisher1</field>
+            <field name="year">2001</field>
+            <field name="ISBN">ISBN1</field>
+            <field name="genre">Horror</field>
         </record>
         
         <record model="library.management" id="book_2">
             <field name="name">Book 2</field>
-            <field name="description"></field>
             <field name="author">Jorge</field>
+            <field name="editor">Editor2</field>
+            <field name="publisher">Publisher2</field>
+            <field name="year">2002</field>
+            <field name="ISBN">ISBN2</field>
+            <field name="genre">Drama</field>
         </record>
         
         <record model="library.management" id="book_3">
             <field name="name">Book 3</field>
-            <field name="description"></field>
-            <field name="author">Maria</field>
+            <field name="author">Hector</field>
+            <field name="editor">Editor3</field>
+            <field name="publisher">Publisher3</field>
+            <field name="year">2003</field>
+            <field name="ISBN">ISBN1</field>
+            <field name="genre">Pop</field>
         </record>
         
         <record model="library.management" id="book_4">
             <field name="name">Book 4</field>
-            <field name="description"></field>
-            <field name="author">Paulo</field>
+            <field name="author">Jorge</field>
+            <field name="editor">Editor4</field>
+            <field name="publisher">Publisher4</field>
+            <field name="year">2004</field>
+            <field name="ISBN">ISBN4</field>
+            <field name="genre">Funny</field>
         </record>
         
         <record model="library.management" id="book_5">
-            <field name="name">Book 5</field>
-            <field name="description"></field>
-            <field name="author">Rogelio</field>
+           <field name="name">Book 5</field>
+            <field name="author">Paulo</field>
+            <field name="editor">Editor5</field>
+            <field name="publisher">Publisher5</field>
+            <field name="year">2005</field>
+            <field name="ISBN">ISBN5</field>
+            <field name="genre">Science</field>
         </record>
         
     </data>

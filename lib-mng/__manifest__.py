@@ -2,31 +2,34 @@
 
 {
 
-'name': 'Library Management',
+    'name': 'Library Management',
 
-'summary': """Module to manage aspects of the Library""",
+    'summary': """Management for a local library""",
 
-'description': """
+    'description': """
 
-    Exercise Library Management:
+        Library Management:
+        Management for a local library.
 
-""",
+    """,
 
-'author': 'daav-odoo',
+    'author': 'daav-odoo',
 
-'website': 'https://www.odoo.com',
+    'website': 'https://www.odoo.com',
 
-'category': 'Training',
+    'category': 'Training',
 
-'version': '0.1',
+    'version': '0.1',
 
-'depends': ['base'],
+    'depends': ['base'],
 
-'data': [
-
+    'data': [
+        'security/module_security.xml',
+        'security/ir.model.access.csv',
+        'views/module_menuitem.xml',
 ],
 
-'demo': [
+    'demo': [
     'demo/module_demo.xml',
 ],
 

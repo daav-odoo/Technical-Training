@@ -2,12 +2,16 @@
 
 from odoo import models, fields, api
 
-class Libro(models.Model):
+class Book(models.Model):
     _name = 'library.management'
-    _description = 'Management of Books' 
+    _description = 'Book info' 
     
     name = fields.Char(string='Title', required=True)
-    description = fields.Text(string='Description')
-    author = fields.Text(string='Author')
+    author = fields.Char(string='Author')
+    editor = fields.Char(string='Editor')
+    publisher = fields.Char(string='Publisher')
+    year = fields.Integer(string='Year')
+    ISBN = fields.Char(string='ISBN')
+    genre = fields.Char(string='Genre')
     
     active = fields.Boolean(string='Active', default=True)
