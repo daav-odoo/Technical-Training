@@ -1,3 +1,4 @@
 # -*- coding: utf-8 -*-
 
-from . import model_name
+from . import book
+from . import rental

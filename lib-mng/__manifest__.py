@@ -24,13 +24,15 @@
     'depends': ['base'],
 
     'data': [
-        'security/module_security.xml',
+        'security/library_security.xml',
         'security/ir.model.access.csv',
-        'views/module_menuitem.xml',
+        'views/library_menuitems.xml',
+        'views/library_views.xml',
+        'views/rental_views.xml',
 ],
 
     'demo': [
-    'demo/module_demo.xml',
+    'demo/library_demo.xml',
 ],
 
 }
