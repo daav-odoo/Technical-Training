@@ -29,6 +29,7 @@
         'views/library_menuitems.xml',
         'views/library_views.xml',
         'views/rental_views.xml',
+        #'views/copy_views_inherit.xml',
 ],
 
     'demo': [

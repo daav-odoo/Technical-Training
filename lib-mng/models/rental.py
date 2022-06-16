@@ -17,7 +17,3 @@ class Rental(models.Model):
     customer_id = fields.Many2many(comodel_name='res.partner',
                                    string='Customers')
     
-    address_id = fields.Many2one(comodel_name='res.partner',
-                                   string='Customers')
-    
-    customer_name = fields.Char(string='Customer_Name', related='customer_id.company_name')
