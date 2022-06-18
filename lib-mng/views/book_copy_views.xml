@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+   <data>
+       
+        <record model="ir.ui.view" id="view_book_copy_form_inherit_book">
+           <field name="name">library.management_copy.form.inherit.book</field>
+           <field name="model">library.management_copy</field>
+           <field name="inherit_id" ref="lib-mng.book_view_form"/>
+           <field name="arch" type="xml">
+
+                <xpath expr="//sheet//notebook" position="inside">
+                    <page string="Copys" attrs="{'invisible':[('book_copy','=',False)]}">
+                        <field name="book_copy">
+                            <tree>
+                                <field name="name"/>
+                                <field name="author"/>
+                            </tree>
+                        </field>
+                    </page>
+                </xpath>
+
+           </field>
+ 
+       </record>
+       
+    </data>
+</odoo>
+
+
